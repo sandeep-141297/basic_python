@@ -33,3 +33,38 @@ print(is_valid)  # Output: True
 # NoneType (represents no value / empty)
 nothing = None
 print(nothing)   # Output: None
+
+# 📌 1. LIST: Ordered, Mutable (can change), Allows duplicates
+# List → [ ] (Square Brackets)
+my_list = [1, 2, 2, 3]
+print(my_list)         # [1, 2, 2, 3]
+my_list[0] = 10        # ✅ can modify
+print(my_list)         # [10, 2, 2, 3]
+
+# 📌 2. TUPLE: Ordered, Immutable (cannot change), Allows duplicates
+# Tuple → ( ) (Round Brackets / Parentheses) - can't modify value
+my_tuple = (1, 2, 2, 3)
+print(my_tuple)        # (1, 2, 2, 3)
+# my_tuple[0] = 10     ❌ Error (can't modify)
+
+# 📌 3. SET: Unordered, Mutable, No duplicates allowed
+my_set = {1, 2, 2, 3}
+print(my_set)          # {1, 2, 3} (duplicates removed)
+my_set.add(4)          # ✅ can add new element
+print(my_set)          # {1, 2, 3, 4}
+
+# 📌 4. DICTIONARY: Key-Value pairs, Mutable, No duplicate keys
+my_dict = {"a": 1, "b": 2, "a": 3}
+print(my_dict)         # {'a': 3, 'b': 2} (last 'a' kept)
+my_dict["c"] = 4       # ✅ can add new key-value
+print(my_dict)         # {'a': 3, 'b': 2, 'c': 4}
+
+# List
+a = [1, 2, 3]
+a[0] = 100
+print(a)   # [100, 2, 3]
+
+# Tuple
+b = (1, 2, 3)
+b[0] = 100   # ❌ Error (tuple is immutable)
+

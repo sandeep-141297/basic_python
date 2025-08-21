@@ -48,4 +48,4 @@ If you try to add the same element multiple times, it will only appear once.
 
 ---
 
-👉 Do you want me to now show a **short comparison of list vs tuple vs set vs dict** (all built-in collections) so that you clearly see the differences?
+**short comparison of list vs tuple vs set vs dict** (all built-in collections)

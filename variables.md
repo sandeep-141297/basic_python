@@ -106,6 +106,3 @@ print(name)      # global
    * Which are valid? `student_name`, `2marks`, `_score`, `total%marks`
 
 ---
-
-👉 Shall I now give you the **answers + explanations for the exercises** so you can check after trying,
-or do you want to **try first** and then I’ll show you solutions?
