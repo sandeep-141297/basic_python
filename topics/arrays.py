@@ -69,6 +69,9 @@ print("Slice [1:4]:", np_array[1:4])
 print("Add 10:", np_array + 10)     # Vectorized operation
 print("Multiply by 2:", np_array * 2)
 
+arr = np_array.reshape(1, 5)
+print("Reshaped Shape:", arr.shape)
+
 arr2 = np.array([[1, 2, 3],
                  [4, 5, 6]])
 print("Array:\n", arr2)
