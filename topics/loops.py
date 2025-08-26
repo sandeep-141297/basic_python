@@ -43,6 +43,9 @@ for num in range(1, 6):
 
 # 7) Loop with continue
 # Meaning: continue skips the current iteration
+# Condition num == 3 ✅ True
+# continue → current iteration gets skipped,
+# so print(num) does not execute. ✅
 for num in range(1, 6):
     if num == 3:
         continue   # Skips printing 3
