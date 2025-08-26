@@ -62,7 +62,11 @@ np_array = np.array([1, 2, 3, 4, 5])
 print("NumPy Array:", np_array)
 
 # NumPy Functions
+# It is 1D array, so NumPy does not think in rows × columns.
+# It just says → “5 elements in a single dimension” → (5,).
+# That’s why you don’t see (1,5) but only (5,).
 print("Shape:", np_array.shape)     # Shape of array - Means 1 row with 5 elements (1D array).
+
 print("DType:", np_array.dtype)     # Data type
 print("Size:", np_array.size)       # Number of elements
 print("Slice [1:4]:", np_array[1:4])
