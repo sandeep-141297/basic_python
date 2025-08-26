@@ -73,6 +73,7 @@ arr2 = np.array([[1, 2, 3],
                  [4, 5, 6]])
 print("Array:\n", arr2)
 print("Shape2:", arr2.shape)       # Shape - Means 2 rows with 3 elements each (2D array).
+# So, .shape tells the dimensions of your array = how many rows, how many columns, how many blocks.
 
 # -----------------------------
 # 5) MULTIDIMENSIONAL ARRAY
