@@ -66,13 +66,6 @@ print("NumPy Array:", np_array)
 # It just says → “5 elements in a single dimension” → (5,).
 # That’s why you don’t see (1,5) but only (5,).
 print("Shape:", np_array.shape)     # Shape of array - Means 1 row with 5 elements (1D array).
-
-print("DType:", np_array.dtype)     # Data type
-print("Size:", np_array.size)       # Number of elements
-print("Slice [1:4]:", np_array[1:4])
-print("Add 10:", np_array + 10)     # Vectorized operation
-print("Multiply by 2:", np_array * 2)
-
 arr = np_array.reshape(1, 5)
 print("Reshaped Shape:", arr.shape)
 
@@ -81,6 +74,12 @@ arr2 = np.array([[1, 2, 3],
 print("Array:\n", arr2)
 print("Shape2:", arr2.shape)       # Shape - Means 2 rows with 3 elements each (2D array).
 # So, .shape tells the dimensions of your array = how many rows, how many columns, how many blocks.
+
+print("DType:", np_array.dtype)     # Data type
+print("Size:", np_array.size)       # Number of elements
+print("Slice [1:4]:", np_array[1:4])
+print("Add 10:", np_array + 10)     # Vectorized operation
+print("Multiply by 2:", np_array * 2)
 
 # -----------------------------
 # 5) MULTIDIMENSIONAL ARRAY
