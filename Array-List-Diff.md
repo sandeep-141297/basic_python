@@ -148,7 +148,7 @@ print(np_arr)   # [1 2 3 4]
 
 ---
 
-Aha 👍 I see where the confusion comes from.
+👍 where the confusion comes from.
 Let’s clear this properly:
 
 ---
@@ -219,7 +219,7 @@ But in **Python only NumPy behaves closer to fixed-size arrays**.
 
 ---
 
-Perfect 👍 Let’s make a **side-by-side comparison table** for
+Let’s make a **side-by-side comparison table** for
 
 * **C/Java Array**
 * **Python List**
