@@ -31,8 +31,7 @@ NameError: name 'array' is not defined
 
 ---
 
-Excellent question 👍
-Let’s clear this up. In Python, you can import the `array` module in **two ways**:
+👍In Python, you can import the `array` module in **two ways**:
 
 ---
 
