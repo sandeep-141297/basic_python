@@ -23,8 +23,6 @@ NameError: name 'array' is not defined
 
 ---
 
-Do you want me to give you a **single file** showing:
-
 * list (no import),
 * tuple (no import),
 * dict (no import),
