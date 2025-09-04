@@ -1,4 +1,4 @@
-Yes, **you must import `array`** before using it in Python.
+**you must import `array`** before using it in Python.
 
 👉 Reason:
 
